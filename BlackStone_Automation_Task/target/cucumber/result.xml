@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.206" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="login feature" name="Validate login and logout successfully" time="10.05">
+<system-out><![CDATA[
+Given user navigate to login page...........................................passed
+And user enters username and password.......................................passed
+And user click signin button................................................passed
+Then validate user navigated on homepage....................................passed
+And user click on account image.............................................passed
+And user clicks on logout button............................................passed
+Then validate navigated on sign-in..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
